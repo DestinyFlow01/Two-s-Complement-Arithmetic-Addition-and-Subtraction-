@@ -26,7 +26,7 @@ This repository contains both C and C++ implementations of two's complement arit
 ## Example
 ```c
 // C version
-BinAdd(bin1, bin2);
+uchar* bin = BinAdd(bin1, bin2);
 
 // C++ version
 Bin bin = bin1 + bin2;
