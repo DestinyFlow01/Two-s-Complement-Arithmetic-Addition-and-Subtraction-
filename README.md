@@ -8,7 +8,7 @@ This repository contains both C and C++ implementations of two's complement arit
 - Provides error codes for debugging when something goes wrong (distinct from segmentation faults).
 
 ## Error Handling
-- The C implementation uses explicit error codes and `fprintf` messages for clarity in Standard Error.
+- The C implementation uses explicit error codes and `fprintf` messages for clarity by printing to Standard Error.
 - These codes are designed to make debugging straightforward without relying on runtime crashes.
 
 ## Cryptic Constructs
@@ -31,6 +31,15 @@ BinAdd(bin1, bin2);
 // C++ version
 Bin bin = bin1 + bin2;
 ```
+
+## Learning Goals
+This project is not only about functionality but also about **discipline and awareness** in low-level programming:
+- **Pointer arithmetic practice**: Using constructs like `0[temp]` to deepen understanding of array indexing and memory access.
+- **Error handling discipline**: Explicit error codes instead of silent failures or crashes.
+- **Const correctness in C++**: Learning how to enforce immutability and safe access in class design.
+- **Memory ownership awareness**: Implementing constructors, destructors, and assignment operators to avoid leaks and undefined behavior.
+- **Bridging paradigms**: Experiencing the transition from procedural C to object-oriented C++ while preserving operational clarity.
+
 
 ## Note
 Compilation instructions for both C and C++ versions are not included here.  
